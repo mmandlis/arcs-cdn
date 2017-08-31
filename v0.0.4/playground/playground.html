@@ -7,6 +7,8 @@
 <!-- custom elements -->
 <script src="../components/x-toast.js"></script>
 <script src="../components/suggestions-element.js"></script>
+<script src="../components/xen-template.js"></script>
+<!--<script src="../components/auto-tabs.js"></script>-->
 
 <!-- tooling -->
 <link rel="import" href="../components/strategy-explorer.html">
@@ -43,14 +45,17 @@
   }
   #particle-container > * {
     flex: 1;
+    /*
     overflow-x: hidden;
     overflow-y: auto;
+    min-height: 320px;
+    */
   }
 </style>
 
 <template>
   <demo-frame>
-    <div id="particle-container"></div>
+    <auto-tabs id="particle-container"></auto-tabs>
     <suggestions-element></suggestions-element>
   </demo-frame>
 </template>

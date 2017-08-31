@@ -15,7 +15,7 @@ let template = Object.assign(document.createElement("template"), {innerHTML: `
   }
   suggestions {
     display: block;
-    max-height: 500px;
+    max-height: 340px;
     overflow-y: auto;
   }
   suggest {
